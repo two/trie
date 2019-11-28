@@ -1,7 +1,5 @@
 package trie
 
-import ()
-
 type Trie struct {
 	end      bool
 	children map[rune]*Trie
